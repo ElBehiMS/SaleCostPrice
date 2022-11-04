@@ -11,12 +11,6 @@
             <field name="list_price" position="attributes">
                <attribute name="groups">product_hide_sale_cost_price.group_product_sale_price</attribute>
             </field>
-            <xpath expr="//label[@for='tax_string']" position="attributes">
-                <attribute name="groups">product_hide_sale_cost_price.group_product_cost_price</attribute>
-            </xpath>
-            <field name="tax_string" position="attributes">
-               <attribute name="groups">product_hide_sale_cost_price.group_product_sale_price</attribute>
-            </field>
             <field name="standard_price" position="attributes">
                <attribute name="groups">product_hide_sale_cost_price.group_product_cost_price</attribute>
             </field>
@@ -43,9 +37,6 @@
         <field name="inherit_id" ref="product.product_template_tree_view"/>
         <field name="arch" type="xml">
             <field name="list_price" position="attributes">
-               <attribute name="groups">product_hide_sale_cost_price.group_product_sale_price</attribute>
-            </field>
-            <field name="tax_string" position="attributes">
                <attribute name="groups">product_hide_sale_cost_price.group_product_sale_price</attribute>
             </field>
             <field name="standard_price" position="attributes">
